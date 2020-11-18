@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Home</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+        <style>
+            .top-container {
+            /*background-color: #f1f1f1; */
+            padding: 4px;
+            text-align: center;
+            }
+
+            .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgb(110, 115, 255);
+            }
+            
+            .flex-container > div {
+            /*background-color: #ff8a5c;*/
+            width: 580px;
+            margin: 10px;
+            text-align: center;
+            line-height: 30px;
+            /*font-size: 18px;*/
+            font-size: 100%;
+            }
+            
+            .flex-container > div {
+            /*background-color: #ff8a5c;*/
+            width: 580px;
+            margin: 10px;
+            text-align: center;
+            line-height: 30px;
+            /*font-size: 18px;*/
+            font-size: 100%;
+            }
+
+            input[type=submit] {
+            background-color: #1c6069;
+            color: white;
+            width: 180px;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            /*float: right;*/
+            margin: 8px;
+            /*margin: 10px 45px;*/
+            }
+
+            h1, h2, h3 {
+                font-family: 'Merriweather', serif;
+                text-align: center;
+            }
+
+            img {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .flex-container1 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            background-color: rgb(106, 158, 255);
+            }
+            
+            .flex-container1 > div {
+            background-color: #ff8a5c;
+            width: 580px;
+            margin: 10px;
+            text-align: center;
+            line-height: 30px;
+            /*font-size: 18px;*/
+            font-size: 100%;
+            }
+
+            input[type=text], textarea {
+            width: 85%;
+            padding: 12px 20px;
+            margin: 4px 0;
+            box-sizing: border-box;
+            }
+
+            /*
+            input[type=submit] {
+            background-color: #1c6069;
+            color: white;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin: 10px 45px;
+            } */
+
+            label {
+                text-align: left;
+                margin: 30px;
+            }
+
+            .col-30 {
+            float: left;
+            width: 30%;
+            margin-top: 6px;
+            }
+
+            .col-70 {
+            float: left;
+            width: 70%;
+            margin-top: 6px;
+            }
+
+            /* Small devices/ phones */
+            @media screen and (min-width: 0px) {
+                #heading, .flex-container {
+                    background-color: rgb(0, 49, 49);
+                    color: white;
+                    justify-content: center;
+                }
+            }
+
+            /* Medium devices (tablets, 378px and up) */
+            @media (min-width: 468px) {
+                #heading, .flex-container{
+                    background-color: rgb(0, 88, 88);
+                }
+            }
+
+            /* Large devices (desktops, 736px and up) */
+            @media (min-width: 736px) {
+                #heading, .flex-container {
+                    background-color: darkcyan;
+                }
+            }
+        </style>
+    </head>
+    <header>
+        <div class="top-container" id="heading">
+            <h1>KEITH TOH</h1>
+        </div>
+        
+        <div class="flex-container" justify-content=center;>
+            <form action="index.html">
+                <input type="submit" name="btnHome" value="Home">
+            </form>
+            <form action="aboutme.html">
+                <input type="submit" name="btnAboutMe" value="About Me">
+            </form>
+            <form action="projects.html">
+                <input type="submit" name="btnProjects" value="Projects">
+            </form>
+            <form action="achievements.html">
+                <input type="submit" name="btnAchievements" value="Achievements">
+            </form>
+        </div>
+    </header>
+    <body>
+        <div id="heading">
+            <h2>Home</h2>
+        </div>
+
+        <div class="flex-container1">
+            <div>
+                <h3>Introduction</h3>
+                <p>
+                    I'm Keith Toh, a student of Ngee Ann Polytechnic pursuing a Diploma in Information Technology.
+                    Technology have since become a very important part of our daily lives, hence I believe that I am able to apply my skills and knowledge I picked up in the future when I join the workforce. 
+                </p>
+                <img src="images\keithtoh.JPG" style="width:90%;">
+            </div>
+        </div>
+
+        <div class="flex-container1">
+            <div>
+                <h3>Connect With Me</h3>
+                <div class="flex-container" style="background-color: #ff8a5c;">
+                <form action="https://www.linkedin.com/in/keith-toh-7513131a8/">
+                    <input type="submit" name="btnLinkedIn" value="LinkedIn" style="background-color: #332c2a; width: 120px;">
+                </form>
+                <form action="mailto:s10202764@connect.np.edu.sg">
+                    <input type="submit" name="btnEmail" value="Email" style="background-color: #332c2a; width: 120px;">
+                </form>
+                <form action="https://www.instagram.com/k317h._.70h/">
+                    <input type="submit" name="btnInstagram" value="Instagram" style="background-color: #332c2a; width: 120px;">
+                </form>
+                </div>
+                <p>
+                    © Keith Toh 2020
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
