@@ -6,160 +6,33 @@
         <title>About Me</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
-        <style>
-            input{display:block;margin-bottom:1em;}
-            /*section p{...}*/
-
-            .top-container {
-            /*background-color: #f1f1f1; */
-            padding: 4px;
-            text-align: center;
-            }
-            
-            h1, h2, h3{
-                font-family: 'Merriweather', serif;
-                text-align: center;
-            }
-            p {
-                font-family: 'Roboto', sans-serif;
-                text-align: center;
-            }
-            li {
-                font-family: 'Roboto', sans-serif;
-            }
-
-            img {
-                width: 100%;
-                margin-left: 95px;
-            }
-
-            .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: rgb(110, 115, 255);
-            }
-            
-            .flex-container > div {
-            /*background-color: #ff8a5c;*/
-            width: 580px;
-            margin: 10px;
-            text-align: center;
-            line-height: 30px;
-            /*font-size: 18px;*/
-            font-size: 100%;
-            }
-
-            input[type=submit] {
-            background-color: #1c6069;
-            color: white;
-            width: 180px;
-            padding: 10px 30px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            float: right;
-            margin: 8px;
-            /*margin: 10px 45px;*/
-            }
-
-            .flex-container1 {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
-            background-color: rgb(106, 158, 255);
-            }
-            
-            .flex-container1 > div {
-            background-color: #ff8a5c;
-            width: 580px;
-            margin: 10px;
-            text-align: left;
-            line-height: 30px;
-            /*font-size: 18px;*/
-            font-size: 100%;
-            }
-
-            .flex-container2 {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
-            /*justify-content: center;*/
-            background-color: rgb(106, 158, 255);
-            }
-            
-            .flex-container2 > div {
-            background-color: #ff8a5c;
-            width: 280px;
-            margin: 10px;
-            text-align: left;
-            line-height: 30px;
-            /*font-size: 18px;*/
-            font-size: 100%;
-            }
-
-            /* Small devices/ phones */
-            @media screen and (min-width: 0px) {
-                #heading, .flex-container {
-                    background-color: rgb(0, 49, 49);
-                    color: white;
-                    justify-content: center;
-                }
-            }
-
-            /* Medium devices (tablets, 378px and up) */
-            @media (min-width: 468px) {
-                #heading, .flex-container {
-                    background-color: rgb(0, 88, 88);
-                }
-            }
-
-            /* Large devices (desktops, 736px and up) */
-            @media (min-width: 736px) {
-                #heading, .flex-container {
-                    background-color: darkcyan;
-                }
-            }
-        </style>
     </head>
+
+    <header>    
+        <h1>KEITH TOH</h1>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <body>
-        <div class="top-container" id="heading">
-            <h1>KEITH TOH</h1>
-        </div>
-
-        <div class="flex-container" justify-content=center> 
-            <form action="index.html">
-                <input type="submit" name="btnHome" value="Home">
-            </form>
-            <form action="aboutme.html">
-                <input type="submit" name="btnAboutMe" value="About Me">
-            </form>
-            <form action="projects.html">
-                <input type="submit" name="btnProjects" value="Projects">
-            </form>
-            <form action="achievements.html">
-                <input type="submit" name="btnAchievements" value="Achievements">
-            </form>
-        </div>
-
-        <div id="heading">
-            <h2>About Me</h2>
-        </div>
-
         <div class="flex-container1">
             <div>
             <h3>Education</h3>
-            <ul>
+            <ul style="margin-left: 5%; padding: 10px; background-color: #404146">
                 <li>Ngee Ann Polytechnic</li>
-                <ul>
+                <ul style="margin-left: 5%;">
                     <li>Diploma in Information Technology</li>
                     <li>2020 - 2023</li>
                 </ul>
 
                 <li>Bukit Batok Secondary School</li>
-                <ul>
+                <ul style="margin-left: 5%;">
                     <li>Express Stream (Science)</li>
                     <li>2016 - 2019</li>
                 </ul>
@@ -170,7 +43,7 @@
         <div class="flex-container2">
             <div>
             <h3>Soft Skills</h3>
-            <ul>
+            <ul style="margin-left: 10%; padding: 10px; background-color: #404146">
                 <li>Leadership</li>
                 <li>Self-disciplined</li>
                 <li>Meticulous</li>
@@ -181,7 +54,7 @@
 
             <div>
             <h3>Hard Skills</h3>
-            <ul>
+            <ul style="margin-left: 10%; padding: 10px; background-color: #404146">
                 <li>Adobe Photoshop</li>
                 <li>Adobe Lightroom</li>
                 <li>Adobe Illustrator</li>
@@ -193,23 +66,23 @@
 
         <div class="flex-container2">
             <div>
-                <h3>Languages</h3>
-                <ul>
-                    <li>English</li>
-                    <li>Chinese</li>
-                    <li>Japanese</li>
-                </ul>
-                <img src="images\book.png" style="width:90px;height:80px;">
+            <h3>Languages</h3>
+            <ul style="margin-left: 10%; padding: 10px; background-color: #404146">
+                <li>English</li>
+                <li>Chinese</li>
+                <li>Japanese</li>
+            </ul>
+            <img src="images\book.png" style="width:90px;height:80px; margin-left: 95px;">
             </div>
             
             <div>
             <h3>Interests</h3>
-            <ul>
+            <ul style="margin-left: 10%; padding: 10px; background-color: #404146">
                 <li>Photography</li>
                 <li>Art & Crafts</li>
                 <li>Music</li>
             </ul>
-            <img src="images\camera.png" style="width:90px;height:80px;">
+            <img src="images\camera.png" style="width:90px;height:80px; margin-left: 95px;">
             </div>
         </div>
     </body>
