@@ -156,7 +156,7 @@ box-sizing: border-box;
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 400px) {
     .flex-container1, .flex-container2 {
         background-color: #1c1d20;
     }
