@@ -154,6 +154,18 @@ box-sizing: border-box;
     .flex-container, .flex-container > div {
         flex-direction: column;
     }
+
+    .flex-container2 > div {
+        width: 580px;
+    }
+
+    .flex-container2 > div ul {
+        margin-left: 5%;
+    }
+
+    .flex-container2 img {
+        margin-left: 245px;
+    }
 }
 
 @media (min-width: 800px) {
@@ -167,5 +179,17 @@ box-sizing: border-box;
 
     .flex-container, .flex-container > div {
         flex-direction: row;
+    }
+
+    .flex-container2 > div {
+        width: 280px;
+    }
+
+    .flex-container2 > div ul {
+        margin-left: 10%;
+    }
+
+    .flex-container2 img {
+        margin-left: 95px;
     }
 }
