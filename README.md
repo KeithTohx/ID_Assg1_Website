@@ -8,7 +8,7 @@ User Stories:
 * As a user type, I want to get in touch with the site's owner, so that I can invite him/her for an interview.
 * As a user type, I want to get to know more about the site's owner, so that I can hire the most suitable person.
 
- Link to Adobe XD: ...
+ Link to Adobe XD: https://xd.adobe.com/view/b1056701-2c1c-4d8c-a446-c7aebcbb5b70-e456/ 
 
 ## Features
 * Users can use the navigation bar located on the top of the page to travel between a total of 4 pages
