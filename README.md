@@ -17,8 +17,8 @@ User Stories:
 
 ## Testing
 As mentioned above, the background colour of the website will change depending on the screen size.
-* Navigation bar will turn into grey and contents background will turn into dark grey when website is viewed on large screens such as desktop.
-* Navigation bar will turn into dark green and contents background will turn into dark cyan when website is viewed on small screens such as smartphones.
+* When viewed on a large screen (desktop), the overall theme of the website will be dark mode. In other words, the background colour of the navigation bar and contents will turn into different tones of grey.
+* When viewed on a small screen (smartphone), the overall theme will be light mode. The background colour of the navigation bar and contents will turn into light grey and white respectively. The layout of some contents will also change to fill up the width of the display. 
 
 ## Credits
 The two icons (camera.png and book.png) in the About Me page were obtained from Google.
