@@ -153,6 +153,11 @@ font-size: 100%;
         color: #1c1d20;
     }
 
+    p img {
+        margin-left: 0%;
+    }
+
+
     .flex-container, .flex-container > div, .flex-container form {
         flex-direction: column;
         background-color: white;
@@ -179,11 +184,12 @@ font-size: 100%;
         color: #1c1d20;
     }
 
-    .flex-container2 img {
-        margin-left: 40%;
+    .flex-container2 > div img {
+        margin-left: 0%;
+        justify-content: center;
         background-color: white;
         color: #1c1d20;
-    }
+    } 
 }
 
 /* for large screens (desktop)*/
@@ -203,9 +209,17 @@ font-size: 100%;
         color: white;
     }
 
+    p img {
+        margin-left: 0%;
+    }
+
     .flex-container, .flex-container > div, .flex-container form {
         flex-direction: row;
         background-color: #404146
+    }
+
+    .flex-container > div img {
+        padding: 8px;
     }
 
     .flex-container1 > div, .flex-container1 > div ul, .flex-container1 > div li, .flex-container1 img, .flex-container2 > div li {
@@ -226,9 +240,10 @@ font-size: 100%;
         margin-left: 10%;
         background-color: #404146
     }
-
-    .flex-container2 img {
-        margin-left: 95px;
-        background-color: #404146
+    
+    .flex-container2 > div img {
+        margin-left: 24%;
+        justify-content: center;
+        background-color: #404146;
     }
 }
