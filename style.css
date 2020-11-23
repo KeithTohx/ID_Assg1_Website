@@ -162,6 +162,10 @@ font-size: 100%;
         background-color: white;
     }
 
+    .flex-container1 > div a {
+        background-color: white;
+        text-decoration: underline;
+    }
 
     .flex-container2 > div {
         width: 580px;
@@ -206,6 +210,11 @@ font-size: 100%;
 
     .flex-container1 > div, .flex-container1 > div ul, .flex-container1 > div li, .flex-container1 img, .flex-container2 > div li {
         background-color: #404146
+    }
+
+    .flex-container1 > div a {
+        background-color: #404146;
+        text-decoration: underline;
     }
 
     .flex-container2 > div {
