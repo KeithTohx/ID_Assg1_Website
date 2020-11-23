@@ -23,3 +23,4 @@ As mentioned above, the background colour of the website will change depending o
 ## Credits
 The two icons (camera.png and book.png) in the About Me page were obtained from Google.
 The rest of the images in the website all belong to myself.
+The website colour theme was inspired by the Light and Dark Modes on various smartphone Operating Systems.
