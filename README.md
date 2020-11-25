@@ -16,7 +16,7 @@ User Stories:
 * Users can use the navigation bar located on the top of the page to travel between a total of 4 pages
 * Users can directly connect with me via LinkedIn, Email or Instagram by clicking on the icons at the bottom of the Home page. Users will be brought to a seperate tab with either LinkedIn, their Email or Instagram opened.
 * The background colour of the website and the layout of some contents will change depending on the size of the screen the user is using to view the website. 
-* Users can be brought back to the top of the webpage by clicking on the "Back to Top" link at the bottom of the page.
+* Users can be brought back to the top of the page by clicking on the "Back to Top" link at the bottom of the page.
 
 ## Testing
 As mentioned above, the background colour of the website will change depending on the screen size.
@@ -26,4 +26,5 @@ As mentioned above, the background colour of the website will change depending o
 ## Credits
 The two icons (camera.png and book.png) in the About Me page were obtained from Google.
 The rest of the images in the website all belong to myself.
+
 The website colour theme was inspired by the Light and Dark Modes on various smartphone Operating Systems.
