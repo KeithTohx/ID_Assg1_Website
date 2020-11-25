@@ -12,7 +12,7 @@ User Stories:
 
 ## Features
 * Users can use the navigation bar located on the top of the page to travel between a total of 4 pages
-* Users can directly connect with me via LinkedIn, Email or Instagram by clicking on the buttons at the bottom of the Home page. Users will be brought to a seperate tab with either LinkedIn, their Email or Instagram opened.
+* Users can directly connect with me via LinkedIn, Email or Instagram by clicking on the icons at the bottom of the Home page. Users will be brought to a seperate tab with either LinkedIn, their Email or Instagram opened.
 * The background colour of the website and the layout of some contents will change depending on the size of the screen the user is using to view the website. 
 * Users can be brought back to the top of the webpage by clicking on the "Back to Top" link.
 
