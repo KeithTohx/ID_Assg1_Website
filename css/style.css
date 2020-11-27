@@ -19,6 +19,7 @@ footer {
     padding: 30px 10%;
 }
 
+/* for navigation bar */
 .nav_links {
     list-style: none;
 }
@@ -27,6 +28,7 @@ footer {
     display: inline-block;
     padding: 0px 20px;
 }
+
 
 h1 {
     font-family: 'Merriweather', serif;
@@ -66,6 +68,8 @@ img {
     justify-content: center;
 }
 
+
+/* for contents inside other containers */
 .flex-container {
 display: flex;
 flex-wrap: wrap;
@@ -81,6 +85,7 @@ line-height: 30px;
 font-size: 100%;
 }
 
+/* for full size contents */
 .flex-container1 {
 display: flex;
 flex-wrap: wrap;
@@ -90,13 +95,11 @@ background-color: #1c1d20;
 }
 
 .flex-container1 > div {
-/*background-color: #586568;*/
 background-color: #404146;
 width: 580px;
 margin: 10px;
 text-align: left;
 line-height: 30px;
-/*font-size: 18px;*/
 font-size: 100%;
 }
 
@@ -104,6 +107,7 @@ font-size: 100%;
     background-color: #404146;
 }
 
+/* for half size contents */
 .flex-container2 {
 display: flex;
 flex-wrap: wrap;
@@ -113,19 +117,18 @@ background-color: #1c1d20;
 }
 
 .flex-container2 > div {
-/*background-color: #586568;*/
 background-color: #404146;
 width: 280px;
 margin: 10px;
 text-align: left;
 line-height: 30px;
-/*font-size: 18px;*/
 font-size: 100%;
 }
 
 .flex-container2 li {
     background-color: #404146;
 }
+
 
 /* for small screens (smartphones)*/
 @media screen and (min-width: 0px) {
@@ -149,11 +152,13 @@ font-size: 100%;
         margin-left: 0%;
     }
 
+    /* when viewed on smaller screens, contents will lay vertically instead of side by side */
     .flex-container, .flex-container > div {
         flex-direction: column;
         background-color: white;
     }
 
+    /* ensure background is set to white (light mode) */
     .flex-container1 > div, .flex-container1 > div ul, .flex-container1 > div li, .flex-container1 img, .flex-container2 > div li {
         background-color: white;
     }
@@ -204,6 +209,7 @@ font-size: 100%;
         margin-left: 0%;
     }
 
+    /* when viewed on larger screens, contents will lay side by side */
     .flex-container, .flex-container > div {
         flex-direction: row;
         background-color: #404146
@@ -213,6 +219,7 @@ font-size: 100%;
         padding: 8px;
     }
 
+    /* ensure background is set to grey (dark mode) */
     .flex-container1 > div, .flex-container1 > div ul, .flex-container1 > div li, .flex-container1 img, .flex-container2 > div li {
         background-color: #404146
     }
