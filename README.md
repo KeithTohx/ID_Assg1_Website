@@ -1,4 +1,5 @@
-# ID_Assg1_Website by Keith Toh
+# ID_Assg1_Website
+### Keith Toh ID-03
 This project is about building a Personal Portfolio Site for recruiters to consider hiring me. 
 
 Link to GitHub Page: https://keithtohx.github.io/ID_Assg1_Website/
